@@ -1,0 +1,57 @@
+p, h3 {
+	margin-left: 20px;
+}
+p {
+	font-family: "Garamond",serif;
+}
+.container {
+	list-style: none;
+	padding: 0;
+	background-color: darkblue;
+	
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-evenly;
+		
+}
+.container a:hover {
+	background-color: blue;	
+	}
+
+a {
+	color: DarkGreen;
+}
+
+.container a {
+	text-decoration: none;
+	padding: 15px;
+	color: white;
+}
+#contact a{
+	color: red;
+	}
+	
+body{
+background-color: lightblue;}
+
+@media all and (max-width: 800px) { 
+.container{
+justify-content: space-evenly;}
+} 
+
+@media all and (max-width: 600px) { 
+.container{
+	flex-flow: column wrap;
+}
+h3 {
+	text-align: center;
+}
+} 
+
+.Iranoutofnames{
+	text-align: center;
+	font-size: 30px;
+	font-weight: bold;
+	
+}

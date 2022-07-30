@@ -1,0 +1,18 @@
+.item {
+	background-color: lightslategrey;
+	padding: 20px;
+	width: 200px;
+	margin-top: 10px;
+	font-weight: bold;
+	text-align: center;
+}
+
+a {
+	color: black;
+}
+
+.container{
+	display: flex;
+	flex-flow:row wrap;
+	justify-content: space-evenly;
+}

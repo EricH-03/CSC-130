@@ -1,0 +1,45 @@
+p, h3 {
+	margin-left: 20px;
+}
+
+.container {
+	list-style: none;
+	padding: 0;
+	background-color: darkcyan;
+	
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: right;
+}
+.container a:hover {
+	background-color: cadetblue;	
+	}
+
+a {
+	color: DarkGreen;
+}
+
+.container a {
+	text-decoration: none;
+	padding: 15px;
+	color: white;
+}
+#contact a{
+	color: red;
+	}
+	
+@media all and (max-width: 800px) { 
+.container{
+justify-content: space-evenly;}
+} 
+
+@media all and (max-width: 600px) { 
+.container{
+	flex-flow: column wrap;
+}
+h3 {
+	text-align: center;
+}
+
+} 

@@ -1,0 +1,103 @@
+body{
+background-color: black;}
+
+p{
+	color: white;}
+	
+h1{
+	color: yellow;
+ }h2{
+	 color: #ff8080;}
+ 
+ a:link{
+	 color: hotpink; 
+	 }a:visited{
+		color: rgb(153, 51, 102);}
+		
+.content{
+padding: 25px;}
+
+.reference{
+	color: #66ff66;
+	font-family: "Garamond",serif;}
+	
+#ecs-image {
+	background-image: url("https://www.uvic.ca/assets2012/images/photos/main/campus-info-maps-maps/main-blg-ecs.jpg");
+	background-repeat: no-repeat;
+	height: 250px;}
+
+.caption {
+    position: relative;
+    top: 20px;
+}
+
+h2 {
+    border-bottom: 1px solid;
+    border-top: 1px solid;
+    padding: 8px;
+    color: #00b36b;
+    font-weight: 100;
+     width: 60%;
+}
+
+#book-image{
+	background-image: url("https://www.uvic.ca/finearts/music/assets/images/facilities-rentals/library/IMG_6139_944.jpg");
+	background-repeat: no-repeat;
+	height: 300px;}
+}
+
+
+
+
+
+
+<div class="bg-image"></div>
+
+<div class="bg-text">
+  <h1>Rent-A-Bee</h1>
+  <p>Matching local beekeepers with potential landlords</p>
+</div>
+
+body, html {
+  height: 100%;
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.bg-image {
+  /* The image used */
+  background-image: url("https://cdn.stocksnap.io/img-thumbs/960w/bee-insect_LJCKHPT2VA.jpg");
+
+  /* Add the blur effect */
+  filter: blur(8px);
+
+
+  /* Full height */
+  height: 100%;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* Position text in the middle of the page/image */
+.bg-text {
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0, 0.4); /* Black w/opacity/see-through */
+  color: white;
+  font-weight: bold;
+  border: 3px solid #f1f1f1;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+  width: 80%;
+  padding: 20px;
+  text-align: center;
+}

@@ -1,0 +1,16 @@
+#personTitle {
+	margin-left: 30px;
+	color: darkblue;	
+}
+
+#myImage {
+	border: 3px solid darkblue;
+	margin-right: 20px;
+	width: 220px;
+}
+
+#description{
+  width: 400px;
+  text-align: left;
+  display: inline-block;
+}

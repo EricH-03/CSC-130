@@ -1,0 +1,30 @@
+<html>
+<head>
+<h1> Eric Huber Lab 1 </h1>
+</head>
+<body>
+<p>Welcome to my page!</p>
+
+<h2>
+Unordered Lists:
+</h2>
+ <p>Places I have <b>lived:</b>
+<ul>
+	<li> Victoria, <i>BC</i> </li>
+	<li> Richmond, <i>VA</i> </li>
+	<li> Munich, <i>BY</i> </li>
+</ul>
+</p>
+
+<h2>
+Ordered Lists:
+</h2>
+
+<p>The websites I vist the <u>most</u> are:
+<ol>
+	<li> <a href="https://www.google.com/gmail/about/">gmail</a> </li>
+	<li> <a href="https://www.uvic.ca/cas/login?service=https%3a%2f%2fbright.uvic.ca%2fd2l%2fcustom%2fcas%3ftarget%3d%252fd2l%252fhome">brightspace</a> </li>
+	<li> <a href= "https://accounts.google.com/signin/v2/identifier?service=cl&passive=1209600&osid=1&continue=https%3A%2F%2Fcalendar.google.com%2Fcalendar%2Fr&followup=https%3A%2F%2Fcalendar.google.com%2Fcalendar%2Fr&flowName=GlifWebSignIn&flowEntry=ServiceLogin">google calendar</a> </li>
+</p>
+</body>
+</html>
